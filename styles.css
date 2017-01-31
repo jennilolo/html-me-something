@@ -2,8 +2,8 @@ body {
 	width: 100%;
 	max-width: 1024px;
 	margin: 0 auto;
-	background-color: #999;
-	font-size: 62.5%;
+	background-color: pink;
+	font-size: 85%;
 }
 
 header,
@@ -14,7 +14,7 @@ footer {
 }
 
 header {
-	padding: 1.875em 0;
+	padding: 5em 0;
 }
 
 header h1 {
@@ -22,15 +22,27 @@ header h1 {
 }
 
 h1, h2, h3 {
-	margin: 0;
+	margin: 10;
+}
+header ul{
+	text-align: center;
 }
 
+.notfancy{
+	text-align:left;
+}
+
+#different{
+	text-align: right;
+	font-family: cursive;
+}
 h1 {
 	font-size: 2.5em;
 }
 
 main h2 {
 	padding: 0.625em 0 0.625em 0.625em;
+	text-align: center;
 }
 
 section {
@@ -45,6 +57,7 @@ section:last-child {
 	margin-bottom: 0;
 }
 
+
 nav ul {
 	text-align: center;
 	padding: 0;
@@ -58,6 +71,7 @@ nav ul li {
 
 p {
 	padding: 1.25em;
+	font-family: cursive;
 }
 
 figure {
